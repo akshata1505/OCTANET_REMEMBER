@@ -1,0 +1,655 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    /* background-color: rgb(44, 233, 223); */
+  
+    /* height: 100vh; */
+  }
+  header {
+    /* background-color:bisque; */
+    display: flex;
+    text-align: center;
+    padding-top: 10px;
+    width: fit-content;
+  }
+  header .logo {
+    margin-left: 35px;
+    /* background-color: rgb(219, 51, 51); */
+    font-size: 2rem;
+    font-weight: bold;
+    /* text-align: center; */
+    margin-top: 10px;
+    display: inline;
+  }
+  header #para1 {
+    /* color: rgb(241, 36, 0); */
+    display: none;
+  }
+  header #para2 {
+    /* color: bisque; */
+    display: none;
+  }
+  header ul {
+    margin-left: 130px;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    font-size: 1.2rem;
+    list-style-type: none;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  header ul li {
+    margin-left: 4rem;
+  }
+  
+  /* header label{
+      margin-left: 9em;
+  } */
+  header #forinput {
+    margin-left: 10rem;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 1px 2px;
+    margin-top: 20px;
+  }
+  
+  .second {
+    /* background-color: rgb(94, 255, 242); */
+    text-align: center;
+    margin-top: 30px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .second #secondh1 {
+    color: rgb(7, 51, 133);
+    background-color: #fff;
+    display: inline;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 30px;
+  }
+  
+  .second #firsth1 {
+    /* background-color: rgb(146, 68, 68); */
+    display: inline;
+    font-size: 1.9rem;
+  }
+  
+  .second .heading {
+    margin-top: 40px;
+    /* background-color: rgb(204, 49, 49); */
+  }
+  .second #thirdh1 {
+    /* background-color: rgb(238, 197, 197); */
+    font-size: 1.9rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .second p {
+    margin-top: 1.2rem;
+  }
+  .second button {
+    color: whitesmoke;
+    background-color: rgb(7, 51, 150);
+    border-radius: 5px;
+    padding: 5px 9px;
+    margin-top: 17px;
+  }
+  
+  .third img {
+    width: 500px;
+    height: 270px;
+    border-radius: 10px;
+    position: absolute;
+    left: 100px;
+    margin-top: 39px;
+  }
+  .third span {
+    /* border: 1px solid black; */
+    position: absolute;
+    left: 550px;
+    top: 310px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 13px;
+    /* text-align: center; */
+    box-shadow: 6px 6px 30px rgb(148, 146, 146, 0.7),
+      -5px -5px 30px rgb(204, 204, 204);
+    width: 380px;
+    height: 200px;
+    text-align: justify;
+    padding: 15px 16px;
+  }
+  .third span h4 {
+    font-family: sans-serif;
+  }
+  .third span h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .third span p {
+    color: rgb(156, 150, 150);
+  }
+  .third span h4 {
+    color: rgb(7, 51, 150);
+  }
+  
+  .fourth {
+    /* background-color: rgb(175, 99, 99); */
+    position: absolute;
+    top: 526px;
+    left: 630px;
+  }
+  .fourth span {
+    margin-left: 24px;
+  }
+  .fourth #twitter {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+  }
+  .fourth #fb {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+  }
+  .fourth #insta {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+  }
+  .fourth #linkedin {
+    width: 20px;
+    height: 20px;
+    /* border-radius: 10px; */
+  }
+  
+  .fifth {
+    background-color: rgb(7, 51, 150);
+    position: relative;
+    top: 400px;
+    color: whitesmoke;
+    height: fit-content;
+    /* bottom: 100px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 800px;
+    /* left: 50px; */
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .fifth .firstline {
+    /* background-color: rgb(102, 64, 64); */
+    display: flex;
+    /* padding-left: 40px; */
+    margin-top: 26px;
+    margin-bottom: 38px;
+    margin-left: -43px;
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+  }
+  .fifth .secondline {
+    /* background-color: rgb(97, 59, 59); */
+    display: flex;
+    margin-top: 28px;
+    margin-left: -40px;
+    text-align: center;
+    align-items: center;
+    /* padding-left: 0px; */
+    font-family: sans-serif;
+  }
+  
+  .fifth .firstline span {
+    margin-left: 80px;
+  }
+  .fifth .secondline span {
+    margin-left: 80px;
+  }
+  
+  .fifth .firstline #Braithwaite {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    /* margin:10px 66px; */
+  }
+  .fifth .firstline #Andrea {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    /* margin:10px 66px; */
+  }
+  .fifth .firstline #Stephen {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    /* margin:5px 6px; */
+  }
+  .fifth .firstline #Jorge {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    /* margin:5px 6px; */
+  }
+  .fifth .secondline #Gayle {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+  }
+  .fifth .secondline #Shashi {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+  }
+  .fifth .secondline #Rowling {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+  }
+  .fifth .secondline #John {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    html {
+      font-size: 12px;
+      padding: 10px;
+    }
+    header .logo {
+      position: relative;
+      left: 110px;
+      margin-right: 130px;
+    }
+    header #para1 {
+      display: contents;
+      position: absolute;
+      top: 1rem;
+      /* color: #000; */
+      left: 1.6rem;
+      display: inline;
+    }
+  
+    header ul {
+      display: none;
+      /* visibility: hidden; */
+    }
+    header #forinput {
+      display: none;
+    }
+    header #para2 {
+      display: contents;
+      position: absolute;
+      top: 1.7rem;
+      left: 30rem;
+      display: inline;
+      /* align-items: center; */
+      /* color: rgb(172, 206, 22); */
+    }
+    body {
+      background-color: #fff;
+    }
+    .second .heading {
+      /* background-color: rgb(136, 114, 114); */
+      font-size: 1.8rem;
+      margin-left: 4rem;
+    }
+    .second #thirdh1 {
+      font-size: 1.8rem;
+      margin-left: 2rem;
+    }
+    .second p,
+    button {
+      margin-left: 3rem;
+    }
+    .third {
+      align-items: center;
+      margin: auto;
+      position: relative;
+      background-color: rgb(224, 97, 46);
+    }
+    .third img {
+      width: 350px;
+      height: 220px;
+      border-radius: 10px;
+      position: absolute;
+      left: 1rem;
+    }
+    .third span {
+      position: absolute;
+      top: 17rem;
+      left: 3.5rem;
+      /* background-color: rgb(190, 35, 35); */
+      width: 300px;
+      height: 180px;
+      text-align: justify;
+      padding: 10px 10px;
+    }
+  
+    .fourth {
+      position: absolute;
+      top: 57rem;
+      margin-left: 2px;
+      left: 9.5rem;
+      display: flex;
+      /* background-color: rgb(49, 179, 37); */
+    }
+  
+    .fifth {
+      width: 85%;
+      /* background-color: #fff; */
+      margin-left: 4.3rem;
+      position: relative;
+      top: 40rem;
+      height: 25rem;
+    }
+    .fifth .firstline span {
+      /* background-color: rgb(155, 119, 119); */
+      margin-left: 2rem;
+    }
+    .fifth .firstline #Braithwaite {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      /* margin:10px 66px; */
+    }
+  
+    .fifth .firstline #Andrea {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      /* margin:10px 66px; */
+    }
+    .fifth .firstline #Stephen {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      /* margin:5px 6px; */
+    }
+    .fifth .firstline #Jorge {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      /* margin:5px 6px; */
+    }
+    .fifth .secondline #Gayle {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+    }
+    .fifth .secondline #Shashi {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+    }
+    .fifth .secondline #Rowling {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+    }
+    .fifth .secondline #John {
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+    }
+    .fifth .firstline #spanfifth1 {
+      position: absolute;
+      left: 0.1rem;
+      /* background-color: rgb(223, 26, 26); */
+    }
+    .fifth .firstline #spanfifth2 {
+      position: absolute;
+      left: 13rem;
+      /* background-color: rgb(72, 223, 26); */
+    }
+    .fifth .firstline #spanfifth3 {
+      position: absolute;
+      top: 10rem;
+      left: 0.8rem;
+      /* background-color: rgb(240, 216, 7); */
+    }
+    .fifth .firstline #spanfifth4 {
+      position: absolute;
+      top: 10rem;
+      left: 13rem;
+      /* background-color: rgb(240, 216, 7); */
+    }
+  
+    .fifth .secondline #spanfifth5 {
+      position: absolute;
+      top: 15rem;
+      left: -4rem;
+      /* background-color: rgb(240, 216, 7); */
+    }
+    .fifth .secondline #spanfifth6 {
+      position: absolute;
+      top: 15rem;
+      left: 8rem;
+      /* background-color: rgb(240, 216, 7); */
+    }
+    .fifth .secondline #spanfifth7 {
+      position: absolute;
+      top: 20rem;
+      left: -4rem;
+      /* background-color: rgb(85, 81, 47); */
+    }
+    .fifth .secondline #spanfifth8 {
+      position: absolute;
+      top: 20rem;
+      left: 8rem;
+      /* background-color: rgb(14, 129, 138); */
+    }
+    .fifth h1 {
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media screen and (min-width: 501px) and (max-width: 768px) {
+    body {
+      /*     background-color: rgb(62, 69, 133); */
+      width: 100%;
+    }
+    header {
+      /* background-color:bisque; */
+      display: flex;
+      text-align: center;
+      padding-top: 10px;
+      width: fit-content;
+    }
+    header .logo {
+      margin-left: 35px;
+      /* background-color: rgb(219, 51, 51); */
+      font-size: 1.5rem;
+      font-weight: bold;
+      /* text-align: center; */
+      margin-top: 10px;
+      display: inline;
+    }
+  
+    header ul {
+      margin-left: 70px;
+      display: flex;
+      justify-content: center;
+      margin-top: 12px;
+      font-size: 1.2rem;
+      list-style-type: none;
+      font-weight: bold;
+      font-family: sans-serif;
+      /* background-color: #fff; */
+    }
+    header ul li {
+      margin-left: 1.8rem;
+    }
+  
+    /* header label{
+          margin-left: 9em;
+      } */
+    header #forinput {
+      margin-left: 3.3rem;
+      border: 2px solid black;
+      border-radius: 30px;
+      padding: 1px 1px;
+      margin-top: 20px;
+      width: 100px;
+    }
+  
+    .third {
+      align-items: center;
+      margin: auto;
+      /* position: relative; */
+      background-color: rgb(224, 97, 46);
+    }
+    .third img {
+      width: 350px;
+      height: 230px;
+      border-radius: 10px;
+      position: absolute;
+      left: 1rem;
+    }
+    .third span {
+      position: absolute;
+      left: 330px;
+      top: 310px;
+      /* background-color: rgb(190, 35, 35); */
+      width: 280px;
+      height: 190px;
+      text-align: justify;
+      padding: 10px 10px;
+      font-size: 0.99rem;
+    }
+  
+    .fourth {
+      position: absolute;
+      top: 34rem;
+      margin-left: 32px;
+      left: 14rem;
+      display: flex;
+      /* background-color: rgb(49, 179, 37); */
+    }
+    .fifth {
+      width: 99%;
+      /* background-color: #fff; */
+      /* margin-left: 0.1rem; */
+      position: absolute;
+      top: 39rem;
+      height: 25rem;
+      margin: auto;
+      left: 1rem;
+      right: 1rem;
+    }
+    .fifth .firstline {
+      /* background-color: rgb(102, 64, 64); */
+      display: flex;
+      /* padding-left: 40px; */
+      margin-top: 26px;
+      margin-bottom: 38px;
+      margin-left: -35px;
+      text-align: center;
+      align-items: center;
+      font-family: sans-serif;
+      width: 98%;
+    }
+    .fifth .secondline {
+      /* background-color: rgb(97, 59, 59); */
+      display: flex;
+      width: 98%;
+      margin-top: 28px;
+      margin-left: -36px;
+      text-align: center;
+      align-items: center;
+      /* padding-left: 0px; */
+      font-family: sans-serif;
+    }
+  
+    .fifth .firstline span {
+      margin-left: 50px;
+    }
+    .fifth .secondline span {
+      margin-left: 50px;
+    }
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+      /*     background-color: rgb(186, 235, 53); */
+    }
+    header {
+      /* background-color:bisque; */
+      display: flex;
+      text-align: center;
+      padding-top: 10px;
+      width: fit-content;
+    }
+    header .logo {
+      margin-left: 35px;
+      /* background-color: rgb(219, 51, 51); */
+      font-size: 2.5rem;
+      font-weight: bold;
+      /* text-align: center; */
+      margin-top: 10px;
+      display: inline;
+    }
+  
+    header ul {
+      margin-left: 100px;
+      display: flex;
+      justify-content: center;
+      margin-top: 12px;
+      font-size: 1.2rem;
+      list-style-type: none;
+      font-weight: bold;
+      font-family: sans-serif;
+      /* background-color: #fff; */
+    }
+    header ul li {
+      margin-left: 3rem;
+    }
+  
+    /* header label{
+              margin-left: 9em;
+          } */
+    header #forinput {
+      margin-left: 4rem;
+      border: 2px solid black;
+      border-radius: 30px;
+      padding: 1px 1px;
+      margin-top: 20px;
+      width: 200px;
+    }
+    .third img {
+      width: 500px;
+      height: 270px;
+      border-radius: 10px;
+      position: absolute;
+      left: 90px;
+      margin-top: 39px;
+    }
+    .third span {
+      /* border: 1px solid black; */
+      position: absolute;
+      left: 550px;
+      top: 335px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 13px;
+      /* text-align: center; */
+      box-shadow: 6px 6px 30px rgb(148, 146, 146, 0.7),
+        -5px -5px 30px rgb(204, 204, 204);
+      width: 380px;
+      height: 200px;
+      text-align: justify;
+      padding: 15px 16px;
+      height: fit-content;
+    }
+    .fourth {
+      /* background-color: rgb(175, 99, 99); */
+      position: absolute;
+      top: 566px;
+      left: 630px;
+    }
+    .fourth span {
+      margin-left: 24px;
+    }
+  }
+  
